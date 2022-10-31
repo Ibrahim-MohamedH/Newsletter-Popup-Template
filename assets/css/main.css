@@ -1,0 +1,75 @@
+body {
+  background-image: url(../images/Background.png);
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+}
+
+.main-d {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: white;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+
+.main-head {
+  background-image: url(../images/Pattern.png);
+  background-color: rgb(42, 42, 252);
+  padding: 50px 60px;
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.main-head h1 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 50px;
+}
+.main-body {
+  padding: 50px 60px;
+}
+.main-body p {
+  color: gray;
+  font-family: "Work Sans", sans-serif;
+}
+.main-body span {
+  display: block;
+  padding-left: 20px;
+  color: rgba(128, 128, 128, 0.589);
+}
+.main-body form input {
+  padding: 5px 10px;
+  width: 60%;
+  border: 1px solid rgba(128, 128, 128, 0.589);
+  border-radius: 5px;
+}
+.main-body form input::placeholder {
+  color: rgba(128, 128, 128, 0.589);
+}
+.main-body form .btn {
+  background-color: rgb(42, 42, 252);
+  width: 35%;
+  border-radius: 5px;
+  padding: 8px 10px;
+  color: white;
+  font-family: "Work Sans", sans-serif;
+}
+
+@media (max-width: 1200px) {
+  .main-body,
+  .main-head {
+    padding: 50px 40px;
+  }
+}
+@media (max-width: 992px) {
+  .main-body,
+  .main-head {
+    padding: 40px 20px;
+  }
+}
+@media (max-width: 576px) {
+  .main-body,
+  .main-head {
+    padding: 15px;
+  }
+}
