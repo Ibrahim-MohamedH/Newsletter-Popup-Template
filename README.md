@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Chirp.](https://ibrahim-mohamedh.github.io/Newsletter-Popup-Template/)
+- Live Site URL: [Newsletter Popup](https://ibrahim-mohamedh.github.io/Newsletter-Popup-Template/)
 
 ## My process
 
